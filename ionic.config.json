@@ -1,0 +1,7 @@
+{
+  "name": "easyPay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
