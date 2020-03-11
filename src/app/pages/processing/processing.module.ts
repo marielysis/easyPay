@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { ProcessingPageRoutingModule } from './processing-routing.module';
 
 import { ProcessingPage } from './processing.page';
+import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ProcessingPageRoutingModule
+    ProcessingPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [ProcessingPage]
 })
