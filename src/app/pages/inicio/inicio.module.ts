@@ -19,4 +19,7 @@ import { ComponentsModule } from '../../components/components.module';
   ],
   declarations: [InicioPage]
 })
-export class InicioPageModule {}
+export class InicioPageModule {
+
+
+}
