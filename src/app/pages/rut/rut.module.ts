@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { RutPageRoutingModule } from './rut-routing.module';
 
 import { RutPage } from './rut.page';
+import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RutPageRoutingModule
+    RutPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [RutPage]
 })
