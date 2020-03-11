@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { PinPageRoutingModule } from './pin-routing.module';
 
 import { PinPage } from './pin.page';
+import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    PinPageRoutingModule
+    PinPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [PinPage]
 })
