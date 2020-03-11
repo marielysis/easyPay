@@ -17,4 +17,7 @@ import { InicioPage } from './inicio.page';
   ],
   declarations: [InicioPage]
 })
-export class InicioPageModule {}
+export class InicioPageModule {
+
+
+}
