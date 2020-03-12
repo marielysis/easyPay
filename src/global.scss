@@ -25,19 +25,20 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-body {
-font-family: 'Roboto', sans-serif;
-background:  #E5E5E5;
+* {
+  background-color:  #f2f2f2;
 }
 
-
-
+body {
+font-family: 'Roboto', sans-serif;
+background-color:  #f2f2f2;
+}
 .button-getin {
   background: #ff7906; 
 }
 
 .containerP {
-  
+  background-color:  #f2f2f2;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -46,10 +47,10 @@ background:  #E5E5E5;
   align-items: center;
 }
 
+
+
 .containerp1 {
-  background: #E5E5E5;
-  margin-top: 100px;
-  height: 90%;
+  background: #f2f2f2;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -59,6 +60,8 @@ background:  #E5E5E5;
 }
 
 .contn1, .contn2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 300px;
   height: 90%;
   display: flex;
@@ -88,12 +91,21 @@ background:  #E5E5E5;
 
 h1 {
   font-size: 80px;
-}
-h2 {
-  font-size: 50px;
+  color: #4f4f4f;
 }
 
+h2 {
+  font-size: 50px;
+  color: #4f4f4f;
+}
+
+h3 {
+    color: #4f4f4f;
+  }
+
 .rut {
+  margin: 0;
+  padding: 20px;
   text-align: center;
   z-index: 1000;
 }
@@ -111,7 +123,24 @@ h2 {
 }
 
 .titulo {
-  background: #E5E5E5;
+  background: #f2f2f2;
   text-align: center;
   z-index: 1000;
 }
+
+.gif{
+  width:600px;
+  height: 30%;
+  margin:0 auto;
+  
+}
+
+  .tex{
+    text-align: center;
+    margin-top:30%;
+    color: #4f4f4f;
+}
+
+
+
+
