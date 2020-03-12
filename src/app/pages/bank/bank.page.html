@@ -1,5 +1,46 @@
 <app-header></app-header>
 
 <ion-content>
+    <ion-text>
+        <h1 text-center class="title-pay"> <b>Selecciona medio de pago</b></h1>   
+      </ion-text>
 
+<ion-grid>
+<ion-row>
+<ion-col class="margin1">
+  <ion-text>
+    <h2 text-center class="subtitle-pay"> <b>Cuenta principal:</b></h2>   
+  </ion-text>
+<a href="/pin">
+  <ion-img  src="assets/img/Tarjeta2.png"></ion-img>
+</a>
+</ion-col>
+
+<ion-col class="margin2">
+  <ion-text>
+    <h2 text-center class="subtitle-pay"><b>Otros medios de pago:</b></h2>   
+  </ion-text>
+<a href="/pin">
+  <ion-img src="assets/img/Servipag.png"></ion-img>
+</a>
+<a href="/pin">
+  <ion-img  src="assets/img/Webpay.png"></ion-img>
+</a>
+</ion-col>
+</ion-row>
+
+
+<ion-row>
+<ion-col></ion-col>
+
+<ion-col>
+  <ion-button class="button-getin" color="#ff7906" size="large" routerLink="/pin">Girar tarjetas</ion-button>
+</ion-col>
+
+<ion-col></ion-col>
+</ion-row>
+
+
+</ion-grid>
+    
 </ion-content>
