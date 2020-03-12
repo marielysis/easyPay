@@ -25,12 +25,84 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-.button-getin{
-    background: #ff7906;
-    // justify-content: center;
-    // text-align: center;
-    // align-items: center;
-    width: 300px;
-    height: 50px;
-    
-} 
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+.button-getin {
+  background: #ff7906; 
+}
+
+.containerP {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerp1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  padding: 10px 50px 25px 25px;
+}
+
+.contn1 {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contn2 {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja .button-getin {
+  width: 300px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 50px;
+}
+
+.rut {
+  text-align: center;
+}
+
+.imputP {
+  height: 300px;
+}
+.imputI {
+  height: 100px;
+}
+
+.imgs {
+  height: 180%;
+  width: 400px;
+}
