@@ -4,13 +4,45 @@
     margin-top: 4em;
 }
 
-.rows{
-    margin-top: 16em;
-}
-
 .key{
     font-size: 2em;
     text-align: center;
 }
 
+.key-row{
+    margin-bottom: 2em;
+}
 
+// .background-input {
+
+//     font-size: 50px;
+//     margin-bottom: 0!important;
+//     ion-item {
+//         --border-color: transparent!important;
+//         --background: none;
+//         background: rgba(var(--ion-color-primary-rgb), 0.06);
+//         border-radius: 4px;
+//        size: 10em;
+//         ion-label {
+//             color: #777!important;
+//             font-weight: 300;
+//             font-size: 1rem!important;
+            
+//         }
+//         ion-input {
+//             --color: #777;
+           
+//         }
+//     }
+// }
+
+.button-getin{
+    // background: orangered;
+    margin-top: 2em;
+    
+}
+
+
+.input-key{
+    --padding-start-left:5em;
+}
