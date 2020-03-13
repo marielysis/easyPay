@@ -16,10 +16,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/accounts/accounts.module').then( m => m.AccountsPageModule)
   },
   {
-    path: 'payment',
-    loadChildren: () => import('./pages/payment/payment.module').then( m => m.PaymentPageModule)
-  },
-  {
     path: 'bank',
     loadChildren: () => import('./pages/bank/bank.module').then( m => m.BankPageModule)
   },
@@ -35,6 +31,11 @@ const routes: Routes = [
     path: 'paid-account',
     loadChildren: () => import('./pages/paid-account/paid-account.module').then( m => m.PaidAccountPageModule)
   },
+  {
+    path: 'bank2',
+    loadChildren: () => import('./pages/bank2/bank2.module').then( m => m.Bank2PageModule)
+  },
+
 ];
 
 @NgModule({
